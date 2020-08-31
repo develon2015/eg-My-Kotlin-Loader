@@ -1,0 +1,25 @@
+{
+  "name": "node_loader",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --env.production",
+    "rebuild": "webpack --env.production --env.rebuild",
+    "dev": "webpack-dev-server --open"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "file-loader": "^6.0.0",
+    "jquery": "^3.5.1",
+    "vue": "^2.6.11",
+    "vue-cli": "^2.9.6",
+    "vue-loader": "^15.9.3",
+    "vue-template-compiler": "^2.6.11",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  }
+}
